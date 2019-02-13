@@ -306,7 +306,7 @@ impl Equation {
                 // x * 2 = 10
                 values.iter().enumerate().for_each(|(i, x)| {
                     if let Component::Number(f) = x {
-                        if *f == outcome {
+                        if (*f - outcome).abs() < f32::EPSILON {
                             count += 1;
                         }
                     } else {
