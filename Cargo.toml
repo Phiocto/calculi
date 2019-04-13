@@ -1,6 +1,6 @@
 [package]
 name = "calculi"
-version = "0.1.2"
+version = "0.2.0"
 authors = ["Phiocto <phiocto@gmail.com>"]
 description = "A crate used to apply calculus functions on equations in string form"
 repository = "https://github.com/Phiocto/calculi"
